@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>EduSpree - Contact</title>
+	<link rel="stylesheet" href="contact.css">
+	<link rel="icon" href="/assets/logo.png" type="image/x-icon">
+</head>
+
+<body style="background-image:url('/assets/hm-gb.jpg');">
+	<!-- Navbar Start -->
+	<nav class="navbar">
+		<ul id="myUL">
+			<span class="link-nav-heading"><img src="/assets/logo.png	"
+					onClick="javascript:window.location.href='/index.html'" alt="logo" class="nav-head-logo"></span>
+			<div class="parent" id="nav-items-all">
+				<span class="nav-link"><a href="../index.html" class="hover-orange">Home</a></span>
+				<span class="nav-link"><a href="/about/about.html" class="hover-orange">About</a></span>
+				<span class="nav-link"><a href="/admission/admission.html" class="hover-orange">Admission</a></span>
+				<span class="nav-link"><a href="/branches/branches.html" class="hover-orange">Branches</a></span>
+				<span class="nav-link"><a href="/contact/contact.html" class="hover-orange">Contact
+						Us</a></span>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<img src="/assets/navbar-hamburger-button.png" alt="img" class="navbar-mobile-button">
+			</a>
+		</ul>
+	</nav>
+
+
+	<!-- Nav link spacing start -->
+	<div id="space-div" class="space"></div>
+	<!-- Nav link spacing start -->
+	<!-- Navbar End -->
+
+	<center>
+		<div class="container">
+			<form action="https://formspree.io/f/mqkoajlb" method="POST">
+				<h3>Get In Touch</h3>
+				<input type="text" id="name" name="name" placeholder="Name" required>
+
+				<input type="email" id="email" name="email" placeholder="Email ID" required>
+
+
+				<textarea id="text" rows="4" name="message" placeholder="Message"></textarea>
+
+				<button type="submit">Submit</button>
+
+
+			</form>
+		</div>
+
+	</center>
+
+
+	<script src="contact.js"></script>
+</body>
+
+</html>

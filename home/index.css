@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.hm-child-img{
+	width: 20%;
+	border-radius:500px;
+	margin-top:5%;
+/* 	height: 55px; */
+}
+
+
+
+.footer-parent{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	margin-top: 6%;
+	background-color: #100029;
+}
+.footer-child-text{
+	margin:20px;
+	color: aliceblue;
+	font-family: sans-serif;
+}
+body{
+  	width: 100%;
+	background-repeat: no-repeat;
+	background-position: top!important;
+    background-size: cover!important;
+    float: left;
+    min-height: 730px;
+}
+*{
+	margin:0;
+	padding:0;
+  box-sizing: border-box;
+}
+.p1{
+    flex-direction: column;
+}
+
+.p1-e1{
+    font-family: 'Unbounded', cursive;
+    margin-top: 60px;
+    margin-left: 25%;
+}
+
+.p1-e2{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 22px;
+    margin-left: 25%;
+    font-size: 300%;
+    margin-right: 25%;
+}
+
+.p1-e3{
+    font-family: 'M PLUS 1p', sans-serif;
+    margin-top: 0.8%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 90%;
+}
+.p1-e4{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2.1%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 90%;
+    color: rgb(0, 0, 71);
+}
+/* navbar start */
+
+#message{
+	resize: vertical;
+}
+link-nav-heading {
+	padding: 2.5%;
+	width: 80px;
+	height: 80px;
+	font-family: calibri;
+}
+.nav-head-logo {
+	width: 80px;
+	height: 80px;
+	border-radius:40px ;
+	margin-top: 20px;
+	margin-left:5%;
+}
+
+.nav-link {
+	margin-right: 1%;
+	font-size: 100%;
+	text-decoration: none;
+	color: #D1D1D1;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+.navbar {
+	height: 100px;
+}
+.parent{
+	margin-top:-40px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+.hover-orange{
+	color: #ffffff;
+	font-weight: bold;
+}
+.hover-orange:hover {
+	color: rgb(191, 191, 191);
+	cursor: pointer;
+}
+.hover-orange{
+	text-decoration: none;
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 7068px) {
+	.navbar-mobile-button{
+		display: none;
+	}
+	.space{
+		display: none;
+	}
+}
+
+@media only screen and (min-device-width: 4px) and (max-device-width: 1000px) {
+	.parent{
+		display: flex;
+		flex-direction: column;
+		margin-top: 30px;
+		position: absolute;
+		text-align: left;
+		margin-left: 10%;
+		display: none;
+		z-index: 2;
+	}
+	.hm-child-img{
+		width: 265px;
+		margin-top:10%;
+	}
+
+	.link-nav-heading{
+		margin-left: 3%;
+	}
+	.space{
+		height: 200px;
+		display: none;
+	}
+	.nav-link{
+		/* display: none; */
+		padding: 8px;
+		width: 100%;
+		z-index: 2;
+		
+	}
+	.navbar-mobile-button{
+		height: 40px;
+		display: flex;
+		float: right;
+		margin-right: 18%;
+		margin-top: 40px;
+
+	}
+	.nav-items-all{
+		display: none;
+		z-index: 2;
+	}
+	}
+
+
+@media only screen and (min-device-width: 4px) and (max-device-width: 450px) {
+    .span{
+        font-size: 15px;
+        margin:5px;
+    }
+    .logo{
+        margin-right:0px;
+    }
+}
+
+/* navbar end */
+
+.main_container{
+  text-align: center;
+  margin-top: 5.6%;
+}
+.spin {
+  color: #A5C9CA;
+  font-family: 'Secular One', sans-serif;
+}
+.spin:after {
+  content:"";
+  animation: spin 15s linear infinite;
+}
+@keyframes spin {
+  0% { content:"our skilled instructors."; }
+  10% { content:"our technology."; }
+  25% { content:"our modern way of teaching."; }
+  45% { content:"our CD 2023 Curriculum."; }
+  65% { content:"our modern research labs."; }
+  95% { content: "and much more!"; }
+}
+
+
+
+
+.mid_button{
+  padding: 18px 23px;
+  margin-top: 35px;
+  border-radius: 15px;
+  border: 2px solid white;
+  font-size: 20px;
+  color: white;
+  background: transparent;
+  font-weight: 700;
+  transition: 0.50s;
+/*   box-shadow: 2px 15px 15px 2px blue; */
+  transform: 0.50s;
+}
+
+.mid_button:hover{
+  background: linear-gradient(135deg, white, blue);
+}
+
+
+
+.secondary_container{
+  margin-top: 20vh;
+  
+}
+
+.s_h1{
+  color: yellow;
+}
+
+.p_h1{
+  color: white;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.main-container-mid{
+	margin-top: 5%;
+margin-bottom:20%;
+}
+.primary-hr{
+	width:80%;
+	margin-top:9%;
+}
+
+
+#features{
+	margin-top:100px;
+  height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  justify-content: center;
+	text-align:center;
+	font-family: 'Secular One', sans-serif;
+}
+#features h1{
+    padding-top: 70px;
+    color: cyan;
+}
+#features p{
+  font-family: 'Secular One', sans-serif;
+	font-size:20px;
+	color: white;
+  margin: 10px;
+}
+
+.work{
+	display: flex; 
+	flex: 1;
+  flex-wrap: wrap;
+  justify-content:center;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	width: 50%;
+	min-width: 100px;
+	max-width: 200px;
+	padding-bottom: 16px;
+	border-radius: 3px;
+	word-wrap: break-word;
+	word-break: break-all;
+  background: transparent;
+  border: 1px solid black;
+}
+
+.card img{
+	width: 100%;
+	background: #ffffff;
+	max-height: 150px;
+	min-height: 150px;
+	border-radius: 3px 3px 0px 0px;
+}
+
+.work-content{
+	word-break: keep-all;
+	margin:10px;
+}
+
+.card .work-content{
+	text-align: center;
+	font-size: 1rem;
+	color: white;
+	font-family: 'Secular One', sans-serif;
+	cursor: pointer;
+}
+
+.card a{
+	color: white;
+	text-decoration: none;
+}
+
+.card .work-content:hover{
+    color: white;
+}
+
+.card:hover {
+	transition: 0.3s;
+	box-shadow: 0px 0px 1em #5283ff;
+	transform: translateY(-6px);
+}
+
+
+
+
+
+
+
